@@ -2,7 +2,7 @@ from django.db import models
 from django.conf import settings
 from django.template import Context, Template
 
-from cabot.cabotapp.alert import AlertPlugin, AlertPluginUserData
+from cabot3.cabotapp.alert import AlertPlugin, AlertPluginUserData
 
 from os import environ as env
 import requests
